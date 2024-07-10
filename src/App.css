@@ -1,58 +1,14 @@
-*{
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
-}
-.app-container{
+.container{
   width: 100vw;
   height: 100vh;
-  background-color: lightcoral;
-  border: 5px solid rgb(15, 194, 98);
-  border-radius: 5px;
-}
-.header{
-  width: 100%;
-  height: 20vh ;
-  background-color: white;
+  background-color: rgb(154, 218, 218);
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-.middle{
-  width: 100%;
-  height: 77vh;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
- 
-  align-items: center;
-  font-size: 12px;
-  
-}
-.form{
-  width: 50vw;
-  height: 50vh ;
-  background-color:white;
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-.form>input{
-  outline: none;
-  border: none;
-  background-color: rgb(238, 233, 233);
-  border-radius: 10px;
-  font-size: 8px;
-  padding:6px;
-  
- 
 }
 
-button{
-  width: 80px ;
-  height: 20px;
-  background-color: green;
-  border-radius: 10px;
-  border:none;
+.form{
+  width: 50%;
+  height: 100px;
+  background-color: aqua;
 }
