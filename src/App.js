@@ -4,6 +4,10 @@ import ComponentMaking from './Component/Practice/componentMaking'
 import Child from './Component/child'
 import OtherChild from './Component/OtherChild'
 import { createContext } from 'react'
+import Home from './Component/UsingMemo'
+import HomeUsingMemo from './Component/HomeUsingMemo'
+import Parent from './Component/Parent'
+
 
 
  export const GlobalInfo=createContext()
@@ -74,7 +78,9 @@ console.log(message)
    <Child/>
    <OtherChild/>
    </GlobalInfo.Provider>
-
+<Home/>
+<HomeUsingMemo/>
+<Parent/>
     </div>
   )
 }
