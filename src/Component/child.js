@@ -9,6 +9,7 @@ const Child = () => {
 
   return (
     <div>
+      <h1>Learning context api useContext</h1>
         <h1 style={{color:appColor}}>Child</h1>
         <SuperChild/>
     </div>

@@ -12,6 +12,7 @@ const HomeUsingMemo = () => {
     },[add])
   return (
     <div>
+      <h4>second example of useMemo</h4>
         <button onClick={()=>setAdd(add+1)}>Add</button>
         <h1>{add}</h1>
       <h2>{isodd}</h2>

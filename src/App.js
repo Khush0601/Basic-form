@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { lazy, Suspense, useState } from 'react'
 import './App.css'
 import ComponentMaking from './Component/Practice/componentMaking'
 import Child from './Component/child'
@@ -8,11 +8,19 @@ import Home from './Component/UsingMemo'
 import HomeUsingMemo from './Component/HomeUsingMemo'
 import Parent from './Component/Parent'
 
+import Counter from './Component/Counter'
+import UsingUseRef from './Component/UsingUseRef'
+
+
 
 
  export const GlobalInfo=createContext()
 const App = () => {
+ 
+
   const[color,setColor]=useState('green')
+  const [count,setCount]=useState(0)
+
   
   const[message,setMesaage]=useState('')
 const[input,setInput]=useState({
@@ -81,6 +89,10 @@ console.log(message)
 <Home/>
 <HomeUsingMemo/>
 <Parent/>
+
+<Counter count={count} setCount={setCount}/>
+<UsingUseRef/>
+
     </div>
   )
 }

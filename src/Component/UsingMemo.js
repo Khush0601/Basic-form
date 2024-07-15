@@ -19,6 +19,7 @@ const Home = () => {
         <h1>Learning useMemo</h1>
      <button onClick={onIncrementOne}>CounterOne</button>
      <h1>{counterOne}</h1>
+    <h6>exampling function</h6>
      <h2>{isEven}</h2>
      <button onClick={onIncrementTwo}>CounterTwo</button>
      <h1>{counterTwo}</h1>
